@@ -5,6 +5,6 @@ services:
     build: ./node-server
     expose:
       - "80"
-   balena-wpe:
+  balena-wpe:
     restart: always
     build: ./balena-wpe
