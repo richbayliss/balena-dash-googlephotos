@@ -1,6 +1,7 @@
 version: '2'
 services:
   node-server:
+    privileged: true
     restart: always
     build: ./node-server
     expose:
