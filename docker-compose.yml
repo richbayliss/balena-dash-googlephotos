@@ -1,0 +1,10 @@
+version: '2'
+services:
+  node-server:
+    restart: always
+    build: ./node-server
+    expose:
+      - "80"
+   balena-wpe:
+    restart: always
+    build: ./balena-wpe
